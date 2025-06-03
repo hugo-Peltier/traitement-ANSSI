@@ -380,8 +380,8 @@ def MAJ(s):
     return s.replace("[MAJ] ", "") # mon cve afficher parfois des MAJ aléatoires, j'ai dev ça comme sécurité
 
 def eemail(to_email, cc_email, subject, body):
-    email = "anssi.noreply@gmail.com" # oui j ai crée une propre adresse mail dédié à l envoie des notifs quotidiennes pour rendre le projet plus réaliste 
-    password = "lxdj mtum vjwb qirm"# code privé unique, ne pas perdre !!!! 
+    email = # à créer 
+    password = # à obtenir via gmail
     msg = MIMEText(body, 'html') # on crée le mail
     msg['From'] = email
     msg['To'] = to_email
